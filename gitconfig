@@ -1,3 +1,12 @@
+[user]
+    email = gernot.pointner@googlemail.com
+    name = Gernot Pointner
+
 [color]
 ui = auto #for colored console output
 
+[push]
+    default = matching
+
+[credential]
+    helper = cache --timeout=3600

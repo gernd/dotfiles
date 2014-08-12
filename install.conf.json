@@ -1,8 +1,11 @@
 [
     {
-        "link": {}
+        "clean": ["~"]
     },
     {
-        "shell": []
+        "link": {
+            "~/.vimrc": "vimrc",
+            "~/.gitconfig": "gitconfig"
+        }
     }
 ]
