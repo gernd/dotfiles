@@ -5,12 +5,12 @@
     {
         "link": {
             "~/.vimrc": "vimrc",
-            "~/.gitconfig": "gitconfig",
-            "~/.vim": "vim"
+            "~/.gitconfig": "gitconfig"
         }
     },
     {
         "shell": [
+            ["git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim", "Setting up vundle"],
             ["vim +PluginInstall +qal", "Installing vim plugins managed by vundle"]
         ]
     }
