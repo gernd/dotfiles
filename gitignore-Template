@@ -35,6 +35,10 @@
 
 # ignore emacs temp files
 *~
+
+# ignore vim temp files
+*swp
+
 # ignore eclipse files
 .project*
 .settings*
