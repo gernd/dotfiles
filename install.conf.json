@@ -3,6 +3,11 @@
         "clean": ["~"]
     },
     {
+        "shell" : [
+            ["mkdir -p ~/.vim", "Creating vim directory"]
+        ]
+    },
+    {
         "link": {
             "~/.vimrc": "vimrc",
             "~/.gitconfig": "gitconfig"
