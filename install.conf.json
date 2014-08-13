@@ -3,14 +3,15 @@
         "clean": ["~"]
     },
     {
-        "shell" : [
-            ["mkdir -p ~/.vim", "Creating vim directory"]
-        ]
-    },
-    {
         "link": {
             "~/.vimrc": "vimrc",
-            "~/.gitconfig": "gitconfig"
+            "~/.gitconfig": "gitconfig",
+            "~/.vim": "vim"
         }
+    },
+    {
+        "shell": [
+            ["vim +PluginInstall +qal", "Installing vim plugins managed by vundle"]
+        ]
     }
 ]
