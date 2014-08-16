@@ -12,6 +12,9 @@ Plugin 'gmarik/Vundle.vim'
 " enhanced c++ syntax highlighting
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
+" nerdtree"
+Plugin 'scrooloose/nerdtree'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
