@@ -10,3 +10,9 @@ ui = auto #for colored console output
 
 [credential]
     helper = cache --timeout=3600
+
+[alias]
+# show outgoing commit, that have not been pushed
+out = log --stat origin/master..HEAD
+# simple colored log output
+simplelog = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
