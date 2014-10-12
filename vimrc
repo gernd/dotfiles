@@ -33,10 +33,18 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 " nerdtree"
 Plugin 'scrooloose/nerdtree'
 
-
 " ctrlP
 Plugin 'kien/ctrlp.vim'
+
+" solarized color scheme
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" activate colorscheme
+set t_Co=256                        " force vim to use 256 colors
+let g:solarized_termcolors=256      " use solarized 256 fallback
+set background=light
+colorscheme solarized

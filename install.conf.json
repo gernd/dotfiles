@@ -5,7 +5,9 @@
     {
         "link": {
             "~/.vimrc": "vimrc",
-            "~/.gitconfig": "gitconfig"
+            "~/.gitconfig": "gitconfig",
+            "~/.bashrc": "bashrc",
+            "~/.tmux.conf": "tmux.conf"
         }
     },
     {
