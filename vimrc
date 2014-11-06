@@ -42,6 +42,9 @@ Plugin 'altercation/vim-colors-solarized'
 " powerline
 Plugin 'Lokaltog/vim-powerline'
 
+" tagbar (class/symbol browser)
+Plugin 'majutsushi/tagbar'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -51,3 +54,7 @@ set t_Co=256                        " force vim to use 256 colors
 let g:solarized_termcolors=256      " use solarized 256 fallback
 set background=light
 colorscheme solarized
+
+" custom key mappings
+nmap <F8> :TagbarToggle<CR>
+nmap <F7> :NERDTreeToggle<CR>
