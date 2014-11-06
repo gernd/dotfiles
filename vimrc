@@ -39,6 +39,9 @@ Plugin 'kien/ctrlp.vim'
 " solarized color scheme
 Plugin 'altercation/vim-colors-solarized'
 
+" powerline
+Plugin 'Lokaltog/vim-powerline'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
