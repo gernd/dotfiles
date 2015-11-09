@@ -110,12 +110,3 @@ if ! shopt -oq posix; then
     . /usr/share/bash-completion/bash_completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
-
-
-# needed for the solarize theme
-export TERM=screen-256color-bce
-  fi
-fi
-
-# enable solarized for tmux
-alias tmux="tmux -2"
