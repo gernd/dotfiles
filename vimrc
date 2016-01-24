@@ -39,3 +39,6 @@ filetype plugin indent on    " required
 
 " custom key mappings
 nmap <F7> :NERDTreeToggle<CR>
+
+" save file with root rights
+command Sudow w !sudo tee % >/dev/null
