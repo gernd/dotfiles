@@ -112,3 +112,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# show current git branch
+source git-prompt.sh
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+
