@@ -8,7 +8,7 @@
             "~/.gitconfig": "gitconfig",
             "~/.bashrc": "bashrc",
             "~/.tmux.conf": "tmux.conf",
-            "~/.git-prompt.sh": "git-prompt.sh"
+            "~/git-prompt.sh": "git-prompt.sh"
         }
     },
     {
