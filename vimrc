@@ -42,3 +42,6 @@ nmap <F7> :NERDTreeToggle<CR>
 
 " save file with root rights
 command Sudow w !sudo tee % >/dev/null
+
+" use desert as color scheme to prevent dark blue comments on black terminal
+:color desert
